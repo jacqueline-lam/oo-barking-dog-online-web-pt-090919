@@ -3,19 +3,21 @@
 
 class Dog # define a class - Dog
   
-  #setter method
+  #setter method (.name=)
   def name=(dogs_name)
     @this_dogs_name = dogs_name
   end
   
-  #getter method
+  #getter method (.name)
   def name
     @this_dogs_name
   end
   
-  def bark
+  #m ethod that puts "woof!" when called on an instance of Dog
+  def bark 
     puts "woof!"
   end
+  
 end 
 
 
